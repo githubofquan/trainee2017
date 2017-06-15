@@ -1,4 +1,4 @@
-<--<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -12,44 +12,16 @@
 		
 		<!-- insert code here, notice and delete the img tag below -->
 		
-		<img src="<?php echo get_template_directory_uri(); ?>/img/timhieuseo.png" />
-		
-		<!-- insert code here end -->
-		
-		
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" type="text/javascript"></script>
-	</body>
-</html>-->
-
-<!--start my code--> 
-<!DOCTYPE html>
-<html>
-<head>
-<title>Huong Nguyen</title>
-
-<meta name="viewport" content="width=device-width"/>
-<meta name="description" content="huong nguyen"/>
-<meta charset="UTF-8"> 
-
-<link type="text/css" rel="stylesheet" href="style.css">
-<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
-
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-</head>
-<body <!--id="top"-->>
-<div id="cv" class="instaFade">
-	<div class="mainDetails">
+		<!--img src="<?php echo get_template_directory_uri(); ?>/img/timhieuseo.png" /-->
+		<div id="cv" class="instaFade">
+		<div class="mainDetails">
 		<div id="headshot" class="quickFade">
 			<img src="Photo.jpg" alt="Alan Smith" />
 		</div>
 		
 		<div id="name">
 			<h1 class="quickFade delayTwo">Huong Nguyen</h1>
-			<h2 class="quickFade delayThree">DEV Team</h2>
-			
+			<h2 class="quickFade delayThree">DEV Team</h2>	
 		</div>
 		<div id="contactDetails" class="quickFade delayFour">
 			<ul>
@@ -90,18 +62,6 @@ Computer Engineering.</p>
 					<p class="subDetails">June 12, 2017 - Present</p>
 					<p>I’m a trainee in Magic Company.</p>
 				</article>
-				
-				<!--article>
-					<h2>Job Title at Company</h2>
-					<p class="subDetails">Janruary 2007 - March 2011</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-				</article-->
-				
-				<!--article>
-					<h2>Job Title at Company</h2>
-					<p class="subDetails">October 2004 - December 2006</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-				</article-->
 			</div>
 			<div class="clear"></div>
 		</section>
@@ -111,16 +71,6 @@ Computer Engineering.</p>
 			<div class="sectionTitle">
 				<h1>Skills</h1>
 			</div>
-				<!--ul class="Skills">
-					<li></li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-				</ul-->
 				<div class="sectionContent">
 					<article>
 						<p class="Skills"></p>
@@ -153,19 +103,16 @@ Computer Engineering.</p>
 			<div class="sectionContent">
 				<article>
 					<h2>2014 - present, Ho Chi Minh City</h2>
-					<!--p class="subDetails">Qualification</p-->
 					<p>I study at HCMUT.</p>
 				</article>
 				
 				<article>
 					<h2>2011 - 2014, Quang Ngai Province</h2>
-					<!--p class="subDetails">Qualification</p-->
 					<p>I’m a high school’s student in my province.</p>
 				</article>
 				
 				<article>
 					<h2>2002 - 2011, Quang Ngai Province</h2>
-					<!--p class="subDetails">Qualification</p-->
 					<p>I’m a secondary school’s student in my province.</p>
 				</article>
 			</div>
@@ -183,6 +130,7 @@ Computer Engineering.</p>
 		</section>
 	</div>
 </div>
+		
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -192,6 +140,12 @@ var pageTracker = _gat._getTracker("UA-3753241-1");
 pageTracker._initData();
 pageTracker._trackPageview();
 </script>
-</body>
+		<!-- insert code here end -->
+		
+		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" type="text/javascript"></script>
+	</body>
 </html>
-<!-- end my code-->
+
+
